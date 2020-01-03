@@ -1,0 +1,135 @@
+.main-content-body{
+   
+}
+.main-content-body .details-card{
+    padding: 20px;
+    border-radius: 8px;
+    background: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.main-content-body .details-card .supplier{
+    padding: 10px 0px;
+    font-size: 13px;
+    
+}
+.main-content-body .details-card .thumbnail{
+    border-radius: 8px;
+    overflow: hidden;
+    
+}
+.main-content-body .details-card .price{
+    text-align: right;
+    padding: 15px 10px;
+}
+.main-content-body .details-card .price .p{
+    text-align: right;
+    font-size: 18px;
+    font-weight: 500;    
+}
+.main-content-body .details-card .price .discount{
+    color: rgb(28, 173, 28);    
+    font-weight: 400;
+}
+.main-content-body .details-card .title{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+
+.main-content-body .details-card .totalAmount {
+    text-align: right;
+    padding: 0px;
+    display: block;
+}
+
+.main-content-body .details-card .totalAmount .tprice{
+    font-weight: 600;
+    font-size: 15px;
+}
+.main-content-body .details-card .totalAmount .tpricew{
+    font-size: 10px;
+}
+
+/* End of Card-Detail  */
+
+.main-content-body .combo-pack{
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.main-content-body .combo-pack .header .title{
+    padding: 10px 0px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.main-content-body .combo-pack .combo-slider{
+    margin-top: 10px;
+}
+.main-content-body .combo-pack .combo-slider .item .combo-pack-card{
+    padding: 10px;
+    border: 1px solid var(--primary);
+    border-radius: 8px;
+}
+.main-content-body .combo-pack .combo-slider .item .combo-pack-card .price{
+    font-size: 18px;
+    font-weight: 600;
+}
+.main-content-body .combo-pack .combo-slider .item .combo-pack-card .discount{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* End of Combo Pack */
+
+.main-content-body .proceed{
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.main-content-body .proceed .title{
+    padding: 10px 0px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.main-content-body .offer{
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.main-content-body .offer .title{
+    padding: 10px 0px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.main-content-body .frequently{
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.row{
+    margin: 0px;
+}
+.col{
+    margin: 0px;
+}
+
+.btn{
+    font-weight: 600;
+    text-shadow: 0px 1px 3px rgba(143, 143, 143, 0.705);
+}
+.tags{
+    padding: 3px 8px;
+    border-radius: 3px;
+    color: rgb(165, 165, 165);
+    background: rgb(228, 228, 228);
+    font-size: 10px;
+}

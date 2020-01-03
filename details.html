@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>E-Pharmacy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="slider.css" />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="details.css" />
+  </head>
+  <body>
+    <div class="toolbar sticky-top bg-alert shadow-sm">
+      <div class="logo">
+        <div class="brand">E-Pharmacy</div>
+        <p class="tagline">Fast Medicine Online</p>
+      </div>
+      <div class="search-bar">
+        <div class="s_wrapper">
+          <div class="category ">
+            CATEGORY
+            <div class="cat dropdown-toggle">Tablets</div>
+          </div>
+          <div class="location">
+            <i class="icon ion-md-pin"></i> DELIVERED TO
+            <div class="pin">721232</div>
+          </div>
+          <div class="search-box">
+            <input
+              type="text"
+              name="search"
+              id="search_box"
+              placeholder="Search Medicine"
+              autocomplete="off"
+            />
+            <div class="hint">
+              <h4>Hint</h4>
+            </div>
+          </div>
+          <div class="searchBtn">
+            <button class="s_btn"><i class="icon ion-md-search"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="cart"><i class="icon ion-md-cloud-upload"></i></div>
+      <div class="cart"><i class="icon ion-md-cart"></i> Cart</div>
+      <div class="login"><i class="icon ion-md-log-in"></i> Login</div>
+    </div>
+    <nav
+      class="navbar navbar-expand-sm navbar-dark bg-dark"
+      style="position: relative;"
+    >
+      <div class="">
+        <ul class="navbar-nav mt-2 mt-lg-0">
+          <li class="nav-item">
+            <i class="icon ion-md-egg"></i>
+            <a class="nav-link" href="#">Aayush</a>
+          </li>
+          <li class="nav-item">
+            <i class="icon ion-md-fitness"></i>
+            <a class="nav-link" href="#">Fitness</a>
+          </li>
+          <li class="nav-item">
+            <i class="icon ion-md-flower"></i>
+            <a class="nav-link" href="#">Person Care</a>
+          </li>
+          <li class="nav-item">
+            <i class="icon ion-md-person"></i>
+            <a class="nav-link" href="#">Family Care</a>
+          </li>
+          <li class="nav-item">
+            <i class="icon ion-md-heart"></i>
+            <a class="nav-link" href="#">Life Style</a>
+          </li>
+          <li class="nav-item">
+            <i class="icon ion-md-pulse"></i>
+            <a class="nav-link" href="#">Devices</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <style>
+      .navbar {
+        display: flex;
+        justify-content: center;
+      }
+      .navbar .nav-item {
+        padding: 0px 50px;
+        text-align: center;
+      }
+      .navbar .nav-item .nav-link {
+        padding: 0px 8px;
+      }
+      i {
+        color: white;
+      }
+    </style>
+
+    <div class="econtainer">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Library</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+      </nav>
+    </div>
+    <div class="econtainer">
+      <div class="main-content">
+        <div class="main-content-body">
+          <div class="row">
+            <div class="col-sm-8 ">
+              <div class="details-card">
+                <div class="row">
+                  <div class="col-sm-8 p-0">
+                    <div class="title">
+                      Bioderma Atoderm Intensive Baume 75 ml
+                    </div>
+                    <span class="tags">Personal Care</span>
+                    <span class="tags">Body Care</span>
+                    <div class="supplier">
+                      By Naos Skin Care India Pvt Ltd
+                    </div>
+                  </div>
+                  <div class="col-sm p-0">
+                    <figure class="thumbnail">
+                      <img src="assets/img/photo4.jpg" alt="" width="100%" />
+                    </figure>
+                    <div class="price">
+                      <span class="p">Rs. 450</span>
+                      <div class="discount">10% Discount</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm">
+                    <div class="totalAmount">
+                      <div class="tprice">
+                        Rs.700
+                      </div>
+                      <div class="tpricew">TOTAL AMOUNT</div>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="form-group m-0">
+                      <select
+                        class="form-control"
+                        id="exampleFormControlSelect1"
+                      >
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-sm p-0">
+                    <button class="btn btn-primary btn-block">
+                      ADD TO CART
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="combo-pack">
+                <div class="header">
+                  <div class="title">
+                    COMBO PACK AVAILABLE WITH THIS PRODUCT
+                  </div>
+                </div>
+                <div class="combo-slider owl-carousel">
+                  <div class="item">
+                    <div class="combo-pack-card shadow-sm">
+                      <div class="row">
+                        <div class="col">
+                          <img
+                            src="assets/img/photo8.jpg"
+                            alt=""
+                            width="50px"
+                          />
+                        </div>
+                        <div class="col">
+                          <span>Pack of 4</span>
+                        </div>
+                        <div class="col">
+                          <div class="price">
+                            Rs. 2300
+                          </div>
+                          <div class="discount">
+                            10% off MPR 300
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mt-3">
+                        <button class="btn btn-primary btn-block btn-sm">
+                          BUY PACK
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="combo-pack-card shadow-sm">
+                      <div class="row">
+                        <div class="col">
+                          <img
+                            src="assets/img/photo8.jpg"
+                            alt=""
+                            width="50px"
+                          />
+                        </div>
+                        <div class="col">
+                          <span>Pack of 4</span>
+                        </div>
+                        <div class="col">
+                          <div class="price">
+                            Rs. 2300
+                          </div>
+                          <div class="discount">
+                            10% off MPR 300
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mt-3">
+                        <button class="btn btn-primary btn-block btn-sm">
+                          BUY PACK
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="combo-pack-card shadow-sm">
+                      <div class="row">
+                        <div class="col">
+                          <img
+                            src="assets/img/photo8.jpg"
+                            alt=""
+                            width="50px"
+                          />
+                        </div>
+                        <div class="col">
+                          <span>Pack of 4</span>
+                        </div>
+                        <div class="col">
+                          <div class="price">
+                            Rs. 2300
+                          </div>
+                          <div class="discount">
+                            10% off MPR 300
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mt-3">
+                        <button class="btn btn-primary btn-block btn-sm">
+                          BUY PACK
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+                <div class="offer">
+                    <div class="title">OFFER</div>
+                    <p>Offers Applied</p>
+                </div>
+                <div class="proceed">
+                    <div class="title">IN CART</div>
+                    <h3>3 items</h3>
+                    <hr>
+                    <button class="btn btn-outline-primary btn-block">PROCEED</button>
+                </div>
+                <div class="proceed">
+                    <div class="title">CHECK AVAILABLE</div>
+                    <div class="form-group">
+                            <label for="exampleInputEmail1">PINCODE</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          </div>
+                    <button class="btn btn-info btn-block">CHECK</button>
+                </div>
+                <div class="frequently">
+                    <div class="title">FREQUENTLY BOUGHT PRODUCTS</div>
+                    <div class="fslider owl-carousel">
+                        <div class="item">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      Designed and Developed By Diwakar Prasad
+    </footer>
+    <script src="jquery-3.4.1.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+/* 
+00B358	228653	007439	36D986	62D99C
+
+*/
+
+.jumbotron{
+    padding: 0px;
+}
+
+.econtainer{
+    background: rgba(232, 235, 235, 0.815);
+    margin: 30px;
+    padding: 0px;
+    border-radius: 10px;
+}
+.econtainer .title-wrapper{
+    padding:20px;
+    
+}
+.econtainer .title-wrapper .beforetitle{
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgb(163, 157, 157);
+    width: 100%;
+}
+.econtainer .title-wrapper .beforetitle .vall{
+    float: right;
+}
+.econtainer .title-wrapper .title{
+    padding: 2px 0px;
+    font-weight: 600;
+    font-size: 20px;
+    margin: -5px 0px;
+}
+.econtainer .title-wrapper .subtitle{
+    padding: 2px 0px;
+    font-size: 15px;
+}
+
+.navbar{
+    background: rgba(219, 219, 219, 0.336);
+    position: absolute;
+    z-index: 12;
+    width: 100%;
+}
+
+footer{
+    background: rgb(15, 48, 119);
+    padding: 40px;
+    
+    color:white;
+}

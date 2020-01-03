@@ -1,0 +1,129 @@
+/* $font-color:rgb(112, 105, 105);
+rgb(223, 214, 214):rgb(223, 214, 214);
+$border-color-search:rgb(41, 85, 207); */
+
+.toolbar{
+    display: flex;
+    padding: 18px 70px;
+    background: rgb(20, 137, 190);
+    flex-wrap: wrap;
+
+}
+
+.toolbar .logo .brand{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+.toolbar .logo .tagline{
+    margin: 0px;
+    font-size: 13px;
+    margin-top: -5px;
+    color: white;
+
+}
+
+.toolbar .search-bar .s_wrapper{
+    display: inline-flex;
+    margin: 0px auto;
+    border-radius: 5px;
+}
+.toolbar .search-bar{
+    margin: 0px auto;
+    border-radius: 5px;
+}
+.toolbar .search-bar .hint{
+    display: none;
+    position: absolute;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 310px;
+    border: 1px solid rgba(165, 163, 163, 0.521);
+    background: white;
+    box-shadow: 0px 2px 5px rgba(187, 187, 187, 0.74)
+}
+
+.toolbar .search-bar #search_box{
+    outline: none;
+    background: none;
+    font-size: 12px;
+    min-width: 450px;
+    color: black;
+    padding: 5px 15px;
+    height: 100%;
+    border: none;
+    font-weight: bold;
+    background: white;
+    transition: all .2s ease;
+    border-top: 1px solid rgb(223, 214, 214);
+    border-bottom: 1px solid rgb(223, 214, 214);    
+
+}
+.toolbar .search-bar .search-box{
+    transition: all .2s ease;
+
+}
+
+
+.toolbar .search-bar #search_box::placeholder{
+    color: rgb(122, 122, 122);
+}
+.toolbar .search-bar .category{
+    border: 1px solid rgb(223, 214, 214);
+    padding: 5px 24px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(112, 105, 105);
+    text-align: center;
+    background: rgb(223, 214, 214);
+    border-radius: 10px 0px 0px 10px;
+}
+.toolbar .search-bar .cat{
+    text-align: center;
+    font-size: 11px;
+}
+.toolbar .search-bar .location{
+    padding: 5px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(112, 105, 105);
+    border-right: 1px solid rgb(223, 214, 214);
+    border-top: 1px solid rgb(223, 214, 214);
+    border-bottom: 1px solid rgb(223, 214, 214);
+    background: rgb(223, 214, 214);
+}
+.toolbar .search-bar .location .pin{
+    color: rgb(146, 135, 135);
+    font-size: 11px;
+    text-align: center;
+}
+.toolbar .search-bar .searchBtn{
+    border: 0px solid rgb(77, 41, 207);
+}
+.toolbar .search-bar .searchBtn .s_btn{
+    outline: none;
+    display: block;
+    padding: 0px 20px;
+    height: 100%;
+    background:linear-gradient(rgb(41, 85, 207),rgb(57, 17, 204)) ;
+    color: white;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.toolbar .login{
+    display: block;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.toolbar .cart{
+    display: block;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+

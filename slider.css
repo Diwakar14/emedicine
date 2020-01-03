@@ -1,0 +1,195 @@
+.slider .owl-item .item{
+    height: 430px;
+    z-index: 11;
+}
+.popularPayment .owl-item .item{
+    padding: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 1px 5px rgba(187, 187, 187, 0.678);
+    background: white;
+    margin: 10px;
+}
+.popularCategory .owl-item .item{
+    padding: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 1px 5px rgba(187, 187, 187, 0.678);
+    background: white;
+    margin: 10px;
+}
+.popularCategory .owl-item .item .ecard .img-wrapper{
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 1px 5px rgba(187, 187, 187, 0.678);
+    background: white;
+}
+.popularCategory .owl-item .item .ecard::before{
+    content: 'Sale';
+    border: 1px solid black;
+    background: black;
+    color: white;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 8px;
+    padding: 4px 6px;
+    font-size: 10px;
+}
+
+.popularCategory .owl-item .item .ecard .details .title{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+.popularCategory .owl-item .item .ecard .details .supplier{
+    font-size: 13px;
+    color: rgb(160, 160, 160);
+}
+.popularCategory .owl-item .item .ecard .details .price{
+    margin: 3px 0px;
+}
+.popularCategory .owl-item .item .ecard .details .price .cp{
+    font-size: 12px;
+    color: rgb(133, 133, 133);
+    text-decoration-line: line-through;
+    margin-right: 10px;
+}
+.popularCategory .owl-item .item .ecard .details .price .sp{
+    font-size: 16px;
+    color: rgb(48, 108, 238);
+    margin-right: 10px;
+    font-weight: bold;
+}
+/* eproduct start */
+.eproduct .owl-item .item{
+    padding: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 1px 5px rgba(187, 187, 187, 0.678);
+    background: white;
+    margin: 10px;
+}
+.eproduct .owl-item .item{
+    padding: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 1px 5px rgba(187, 187, 187, 0.678);
+    background: white;
+    margin: 10px;
+}
+.eproduct .owl-item .item .ecard .img-wrapper{
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 1px 5px rgba(187, 187, 187, 0.678);
+    background: white;
+}
+
+.eproduct .owl-item .item .ecard .details{
+    text-align: center;
+}
+.eproduct .owl-item .item .ecard .details .title{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+.eproduct .owl-item .item .ecard .details .supplier{
+    font-size: 13px;
+    color: rgb(160, 160, 160);
+}
+
+/* End of items and cards */
+
+
+.owl-theme .owl-nav .disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+.owl-carousel .owl-nav{
+    margin: 0px;
+    position: absolute;
+    display: flex;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popularCategory .owl-nav button.owl-next{
+    padding: 10px 20px !important;
+    border-radius: 999px;
+    color: black;
+    outline: none;
+    background: rgb(228, 228, 228);
+    font-weight: bold;
+    position: relative;
+    right: -20px;
+}
+.popularCategory .owl-nav button.owl-prev{
+    padding: 10px 20px !important;
+    border-radius: 999px;
+    color: black;
+    outline: none;
+    background: rgb(228, 228, 228);
+    font-weight: bold;
+    position: relative;
+    left: -20px;
+}
+.slider .owl-nav button.owl-next{
+    padding: 10px 20px !important;
+    border-radius: 999px;
+    color: black;
+    outline: none;
+    background: rgb(228, 228, 228);
+    font-weight: bold;
+    
+}
+.slider .owl-nav button.owl-prev{
+    padding: 10px 20px !important;
+    border-radius: 999px;
+    color: black;
+    outline: none;
+    background: rgb(228, 228, 228);
+    font-weight: bold;
+}
+.featured-slider .owl-nav button.owl-next{
+    padding: 10px 20px !important;
+    border-radius: 999px;
+    color: black;
+    outline: none;
+    background: rgb(228, 228, 228);
+    font-weight: bold;
+    position: relative;
+    right: -20px;
+}
+.featured-slider .owl-nav button.owl-prev{
+    position: relative;
+    padding: 10px 20px !important;
+    border-radius: 999px;
+    color: black;
+    outline: none;
+    background: rgb(228, 228, 228);
+    font-weight: bold;
+    left: -20px;
+}
+/* End of navigation button */
+
+
+/* .featured-slider */
+
+.featured-slider{
+    background: rgb(232, 235, 235);
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+.featured-slider .item{
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 1px 5px rgba(187, 187, 187, 0.678);
+
+}

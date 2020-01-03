@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="slider.css" />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="allproduct.css" />
+
+    <title>All Products</title>
+  </head>
+  <body>
+    <div class="toolbar sticky-top bg-alert shadow-sm">
+      <div class="logo">
+        <div class="brand">E-Pharmacy</div>
+        <p class="tagline">Fast Medicine Online</p>
+      </div>
+      <div class="search-bar">
+        <div class="s_wrapper">
+          <div class="category ">
+            CATEGORY
+            <div class="cat dropdown-toggle">Tablets</div>
+          </div>
+          <div class="location">
+            <i class="icon ion-md-pin"></i> DELIVERED TO
+            <div class="pin">721232</div>
+          </div>
+          <div class="search-box">
+            <input
+              type="text"
+              name="search"
+              id="search_box"
+              placeholder="Search Medicine"
+              autocomplete="off"
+            />
+            <div class="hint">
+              <h4>Hint</h4>
+            </div>
+          </div>
+          <div class="searchBtn">
+            <button class="s_btn"><i class="icon ion-md-search"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="cart"><i class="icon ion-md-cloud-upload"></i></div>
+      <div class="cart"><i class="icon ion-md-cart"></i> Cart</div>
+      <div class="login"><i class="icon ion-md-log-in"></i> Login</div>
+    </div>
+
+    <div class="econtainer">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Library</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+      </nav>
+    </div>
+
+    <div class="econtainer">
+      <style>
+        .row {
+          margin: 0px;
+        }
+      </style>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="pcategory">
+            <div class="title">
+              CATEGORY
+            </div>
+            <div class="accordion" id="accordionParent">
+              <div class="list-group">
+                <button
+                  type="button"
+                  class="list-group-item list-group-item-action"
+                  data-toggle="collapse"
+                  data-target="#collase1"
+                >
+                  <i class="icon ion-md-play"></i> Ayush
+                </button>
+                <div
+                  id="collase1"
+                  class="collapse show"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordionParent"
+                >
+                  <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Aaurvedic</li>
+                      <li class="list-group-item">Homeopathic</li>
+                      <li class="list-group-item">Morbi leo risus</li>
+                      <li class="list-group-item">Porta ac consectetur ac</li>
+                      <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="list-group">
+                <button
+                  type="button"
+                  class="list-group-item list-group-item-action"
+                  data-toggle="collapse"
+                  data-target="#fitness"
+                >
+                  <i class="icon ion-md-play"></i> Fitenss
+                </button>
+                <div
+                  id="fitness"
+                  class="collapse show"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordionParent"
+                >
+                  <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Aaurvedic</li>
+                      <li class="list-group-item">Homeopathic</li>
+                      <li class="list-group-item">Morbi leo risus</li>
+                      <li class="list-group-item">Porta ac consectetur ac</li>
+                      <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="list-group">
+                <button
+                  type="button"
+                  class="list-group-item list-group-item-action"
+                  data-toggle="collapse"
+                  data-target="#personalCare"
+                >
+                  <i class="icon ion-md-play"></i> Personal Care
+                </button>
+                <div
+                  id="personalCare"
+                  class="collapse show"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordionParent"
+                >
+                  <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Aaurvedic</li>
+                      <li class="list-group-item">Homeopathic</li>
+                      <li class="list-group-item">Morbi leo risus</li>
+                      <li class="list-group-item">Porta ac consectetur ac</li>
+                      <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="list-group">
+                <button
+                  type="button"
+                  class="list-group-item list-group-item-action"
+                  data-toggle="collapse"
+                  data-target="#familyCare"
+                >
+                  <i class="icon ion-md-play"></i> Family Care
+                </button>
+                <div
+                  id="familyCare"
+                  class="collapse show"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordionParent"
+                >
+                  <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Aaurvedic</li>
+                      <li class="list-group-item">Homeopathic</li>
+                      <li class="list-group-item">Morbi leo risus</li>
+                      <li class="list-group-item">Porta ac consectetur ac</li>
+                      <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filter">
+            <div class="title">
+              FILTER
+            </div>
+            <div class="availability">
+              <div class="card-title">
+                Availability
+              </div>
+              <div class="card-body">
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Active link</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="price">
+              <div class="card-title">
+                Price
+              </div>
+              <div class="card-body">
+                <ul class="nav">
+                  <li class="nav-item">
+                    <div class="range-wrapper">
+                      <input
+                        type="range"
+                        class="custom-range"
+                        id="customRange1"
+                        min="10"
+                        max="100"
+                        m
+                      />
+                      <input
+                        type="range"
+                        class="custom-range"
+                        id="customRange1"
+                        min="10"
+                        max="100"
+                        m
+                      />
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="discount">
+              <div class="card-title">
+                Discount
+              </div>
+              <div class="card-body">
+                <ul class="nav">
+                  <li class="nav-item">
+                    <div class="range-wrapper">
+                      <input
+                        type="range"
+                        class="custom-range"
+                        id="customRange1"
+                        min="10"
+                        max="100"
+                        m
+                      />
+                      <input
+                        type="range"
+                        class="custom-range"
+                        id="customRange1"
+                        min="10"
+                        max="100"
+                        m
+                      />
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="category">
+              <div class="card-title">
+                Categories
+              </div>
+              <style>
+                .form-group {
+                  margin: 0px;
+                }
+              </style>
+              <div class="card-body">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <div class="form-group">
+                      <input
+                        type="search"
+                        class="form-control"
+                        placeholder="Search.."
+                      />
+                    </div>
+                  </li>
+                  <div class="categoryList">
+                    <li class="list-group-item">
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1"
+                          >Check this custom checkbox</label
+                        >
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1"
+                          >Check this custom checkbox</label
+                        >
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1"
+                          >Check this custom checkbox</label
+                        >
+                      </div>
+                    </li>
+                  </div>
+                </ul>
+              </div>
+            </div>
+            <div class="brand">
+              <div class="card-title">
+                Brand
+              </div>
+              <div class="card-body">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <div class="form-group">
+                      <input
+                        type="search"
+                        class="form-control"
+                        placeholder="Search.."
+                      />
+                    </div>
+                  </li>
+                  <div class="categoryList">
+                    <li class="list-group-item">
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1"
+                          >Check this custom checkbox</label
+                        >
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1"
+                          >Check this custom checkbox</label
+                        >
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1"
+                          >Check this custom checkbox</label
+                        >
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1"
+                          >Check this custom checkbox</label
+                        >
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1"
+                          >Check this custom checkbox</label
+                        >
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1"
+                          >Check this custom checkbox</label
+                        >
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1"
+                          >Check this custom checkbox</label
+                        >
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1"
+                          >Check this custom checkbox</label
+                        >
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1"
+                          >Check this custom checkbox</label
+                        >
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1"
+                          >Check this custom checkbox</label
+                        >
+                      </div>
+                    </li>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-9 mt-5">
+          <div class="productSlider owl-carousel owl-theme">
+            <div class="item">
+              <img src="assets/img/photo6.jpg" alt="" width="100%" />
+            </div>
+            <div class="item">
+              <img src="assets/img/photo7.jpg" alt="" width="100%" />
+            </div>
+            <div class="item">
+              <img src="assets/img/photo8.jpg" alt="" width="100%" />
+            </div>
+            <div class="item">
+              <img src="assets/img/photo9.jpg" alt="" width="100%" />
+            </div>
+            <div class="item">
+              <img src="assets/img/photo10.jpg" alt="" width="100%" />
+            </div>
+            <div class="item">
+              <img src="assets/img/photo11.jpg" alt="" width="100%" />
+            </div>
+          </div>
+
+          <div class="main-content">
+            <div class="header">
+              <div class="title">
+                Showing 20 of 200
+              </div>
+            </div>
+            <div class="main-content-body">
+              <div class="title">ALL PRODUCTS</div>
+              <div class="products">
+                <div class="ecard-wrapper">
+                  <div class="ecard">
+                    <div class="img-wrapper">
+                      <img src="assets/img/photo2.jpg" alt="" width="100%" />
+                    </div>
+                    <div class="details">
+                      <div class="title">Relispray 75ml</div>
+                      <div class="supplier">By Relispray</div>
+                      <div class="price">
+                        <span class="cp">Rs.200</span
+                        ><span class="sp">Rs.150</span>
+                      </div>
+                      <button class="btn btn-block btn-primary">
+                        ADD TO CART
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="ecard-wrapper">
+                  <div class="ecard">
+                    <div class="img-wrapper">
+                      <img src="assets/img/photo2.jpg" alt="" width="100%" />
+                    </div>
+                    <div class="details">
+                      <div class="title">Relispray 75ml</div>
+                      <div class="supplier">By Relispray</div>
+                      <div class="price">
+                        <span class="cp">Rs.200</span
+                        ><span class="sp">Rs.150</span>
+                      </div>
+                      <button class="btn btn-block btn-primary">
+                        ADD TO CART
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="ecard-wrapper">
+                  <div class="ecard">
+                    <div class="img-wrapper">
+                      <img src="assets/img/photo2.jpg" alt="" width="100%" />
+                    </div>
+                    <div class="details">
+                      <div class="title">Relispray 75ml</div>
+                      <div class="supplier">By Relispray</div>
+                      <div class="price">
+                        <span class="cp">Rs.200</span
+                        ><span class="sp">Rs.150</span>
+                      </div>
+                      <button class="btn btn-block btn-primary">
+                        ADD TO CART
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="ecard-wrapper">
+                  <div class="ecard">
+                    <div class="img-wrapper">
+                      <img src="assets/img/photo2.jpg" alt="" width="100%" />
+                    </div>
+                    <div class="details">
+                      <div class="title">Relispray 75ml</div>
+                      <div class="supplier">By Relispray</div>
+                      <div class="price">
+                        <span class="cp">Rs.200</span
+                        ><span class="sp">Rs.150</span>
+                      </div>
+                      <button class="btn btn-block btn-primary">
+                        ADD TO CART
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="ecard-wrapper">
+                  <div class="ecard">
+                    <div class="img-wrapper">
+                      <img src="assets/img/photo2.jpg" alt="" width="100%" />
+                    </div>
+                    <div class="details">
+                      <div class="title">Relispray 75ml</div>
+                      <div class="supplier">By Relispray</div>
+                      <div class="price">
+                        <span class="cp">Rs.200</span
+                        ><span class="sp">Rs.150</span>
+                      </div>
+                      <button class="btn btn-block btn-primary">
+                        ADD TO CART
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="ecard-wrapper">
+                  <div class="ecard">
+                    <div class="img-wrapper">
+                      <img src="assets/img/photo2.jpg" alt="" width="100%" />
+                    </div>
+                    <div class="details">
+                      <div class="title">Relispray 75ml</div>
+                      <div class="supplier">By Relispray</div>
+                      <div class="price">
+                        <span class="cp">Rs.200</span
+                        ><span class="sp">Rs.150</span>
+                      </div>
+                      <button class="btn btn-block btn-primary">
+                        ADD TO CART
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-content-body">
+              <div class="title">ALL PRODUCTS</div>
+              <div class="products">
+                <div class="ecard-wrapper">
+                  <div class="ecard">
+                    <div class="img-wrapper">
+                      <img src="assets/img/photo2.jpg" alt="" width="100%" />
+                    </div>
+                    <div class="details">
+                      <div class="title">Relispray 75ml</div>
+                      <div class="supplier">By Relispray</div>
+                      <div class="price">
+                        <span class="cp">Rs.200</span
+                        ><span class="sp">Rs.150</span>
+                      </div>
+                      <button class="btn btn-block btn-primary">
+                        ADD TO CART
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="ecard-wrapper">
+                  <div class="ecard">
+                    <div class="img-wrapper">
+                      <img src="assets/img/photo2.jpg" alt="" width="100%" />
+                    </div>
+                    <div class="details">
+                      <div class="title">Relispray 75ml</div>
+                      <div class="supplier">By Relispray</div>
+                      <div class="price">
+                        <span class="cp">Rs.200</span
+                        ><span class="sp">Rs.150</span>
+                      </div>
+                      <button class="btn btn-block btn-primary">
+                        ADD TO CART
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="ecard-wrapper">
+                  <div class="ecard">
+                    <div class="img-wrapper">
+                      <img src="assets/img/photo2.jpg" alt="" width="100%" />
+                    </div>
+                    <div class="details">
+                      <div class="title">Relispray 75ml</div>
+                      <div class="supplier">By Relispray</div>
+                      <div class="price">
+                        <span class="cp">Rs.200</span
+                        ><span class="sp">Rs.150</span>
+                      </div>
+                      <button class="btn btn-block btn-primary">
+                        ADD TO CART
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="ecard-wrapper">
+                  <div class="ecard">
+                    <div class="img-wrapper">
+                      <img src="assets/img/photo2.jpg" alt="" width="100%" />
+                    </div>
+                    <div class="details">
+                      <div class="title">Relispray 75ml</div>
+                      <div class="supplier">By Relispray</div>
+                      <div class="price">
+                        <span class="cp">Rs.200</span
+                        ><span class="sp">Rs.150</span>
+                      </div>
+                      <button class="btn btn-block btn-primary">
+                        ADD TO CART
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="ecard-wrapper">
+                  <div class="ecard">
+                    <div class="img-wrapper">
+                      <img src="assets/img/photo2.jpg" alt="" width="100%" />
+                    </div>
+                    <div class="details">
+                      <div class="title">Relispray 75ml</div>
+                      <div class="supplier">By Relispray</div>
+                      <div class="price">
+                        <span class="cp">Rs.200</span
+                        ><span class="sp">Rs.150</span>
+                      </div>
+                      <button class="btn btn-block btn-primary">
+                        ADD TO CART
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="ecard-wrapper">
+                  <div class="ecard">
+                    <div class="img-wrapper">
+                      <img src="assets/img/photo2.jpg" alt="" width="100%" />
+                    </div>
+                    <div class="details">
+                      <div class="title">Relispray 75ml</div>
+                      <div class="supplier">By Relispray</div>
+                      <div class="price">
+                        <span class="cp">Rs.200</span
+                        ><span class="sp">Rs.150</span>
+                      </div>
+                      <button class="btn btn-block btn-primary">
+                        ADD TO CART
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="jquery-3.4.1.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

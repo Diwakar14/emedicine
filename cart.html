@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>E-Pharmacy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="slider.css" />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="details.css" />
+  </head>
+  <body>
+    <div class="toolbar sticky-top bg-alert shadow-sm">
+      <div class="logo">
+        <div class="brand">E-Pharmacy</div>
+        <p class="tagline">Fast Medicine Online</p>
+      </div>
+      <div class="search-bar">
+        <div class="s_wrapper">
+          <div class="category ">
+            CATEGORY
+            <div class="cat dropdown-toggle">Tablets</div>
+          </div>
+          <div class="location">
+            <i class="icon ion-md-pin"></i> DELIVERED TO
+            <div class="pin">721232</div>
+          </div>
+          <div class="search-box">
+            <input
+              type="text"
+              name="search"
+              id="search_box"
+              placeholder="Search Medicine"
+              autocomplete="off"
+            />
+            <div class="hint">
+              <h4>Hint</h4>
+            </div>
+          </div>
+          <div class="searchBtn">
+            <button class="s_btn"><i class="icon ion-md-search"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="cart"><i class="icon ion-md-cloud-upload"></i></div>
+      <div class="cart"><i class="icon ion-md-cart"></i> Cart</div>
+      <div class="login"><i class="icon ion-md-log-in"></i> Login</div>
+    </div>
+
+    <style>
+      .navbar {
+        display: flex;
+        justify-content: center;
+      }
+      .navbar .nav-item {
+        padding: 0px 50px;
+        text-align: center;
+      }
+      .navbar .nav-item .nav-link {
+        padding: 0px 8px;
+      }
+      i {
+        color: white;
+      }
+    </style>
+
+    <div class="econtainer">
+      <div class="main-content">
+        <div class="main-content-body">
+          <div class="row">
+            <div class="col-sm-8 ">
+              <div class="details-card">
+                <div class="header">
+                  <div class="title">
+                    Order Summary
+                  </div>
+                </div>
+                <ul class="list-group mb-2">
+                  <li href="#" class="list-group-item">
+                    <div class="row">
+                      <div class="col-sm-2 p-0">
+                        <div
+                          class="img rounded-circle"
+                          style="overflow: hidden;width: 100px;height: 100px;"
+                        >
+                          <img
+                            src="assets/img/photo5.jpg"
+                            alt=""
+                            width="100px"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-sm-8">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h5 class="mb-3">List group item heading</h5>
+                        </div>
+                        <p class="mb-1">1 Capsule(s) in a Strip</p>
+                        <small>By By Gsk Consumer Healthcare</small>
+                      </div>
+                      <div class="col-sm text-right">
+                        <div class="price">
+                          <div class="sl">
+                            Rs.450
+                          </div>
+                          <div class="cp">
+                            Rs.500
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <span>Quantity</span>
+                          <select
+                            class="form-control"
+                            id="exampleFormControlSelect2"
+                          >
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                          </select>
+                        </div>
+                        <button class="btn btn-danger btn-sm">
+                          <i class="icon ion-md-trash"></i> Remove
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="offer">
+                <div class="title">OFFER</div>
+                <p>Offers Applied</p>
+              </div>
+              <div class="proceed">
+                <div class="title">IN CART</div>
+                <h3>3 items</h3>
+                <hr />
+                <button class="btn btn-outline-primary btn-block">
+                  PROCEED
+                </button>
+              </div>
+              <div class="proceed">
+                <div class="title">CHECK AVAILABLE</div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">PINCODE</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                </div>
+                <button class="btn btn-info btn-block">CHECK</button>
+              </div>
+              <div class="frequently">
+                <div class="title">FREQUENTLY BOUGHT PRODUCTS</div>
+                <div class="fslider owl-carousel">
+                  <div class="item"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      Designed and Developed By Diwakar Prasad
+    </footer>
+    <script src="jquery-3.4.1.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

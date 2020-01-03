@@ -1,0 +1,48 @@
+$('.slider').owlCarousel({
+    loop:true,
+    nav:true,
+    items:1,
+    dots:false
+});
+$('.productSlider').owlCarousel({
+    loop:true,
+    nav:false,
+    items:1,
+    dots:false
+});
+$('.featured-slider').owlCarousel({
+    loop:true,
+    nav:true,
+    items:3,
+    dots:false,
+    margin:15
+});
+$('.popularCategory').owlCarousel({
+    loop:true,
+    nav:false,
+    items:4,
+    dots:false,
+    margin:15
+});
+$('.popularPayment').owlCarousel({
+    loop:true,
+    nav:true,
+    items:3,
+    dots:false,
+    
+});
+$('.eproduct').owlCarousel({
+    loop:true,
+    nav:true,
+    items:4,
+    dots:false,
+    
+});
+$('.combo-slider').owlCarousel({
+    loop:true,
+    nav:false,
+    items:2,
+    dots:false,
+    margin:20
+    
+});

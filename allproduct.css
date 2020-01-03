@@ -1,0 +1,176 @@
+/* Top slider */
+.productSlider{
+    margin: 0px;
+   
+}
+.productSlider .owl-item .item{
+    height: 250px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+.pcategory{
+    padding: 6px;
+    margin-bottom: 20px;
+
+}
+.pcategory .title{
+    padding: 10px 5px;
+    font-weight: bold;
+}
+
+.availability{
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 8px;
+}
+.price{
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 8px;
+}
+.discount{
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 8px;
+}
+.filter .brand{
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 8px;
+}
+.filter .brand .card-body .categoryList{
+    overflow-y: scroll;
+    max-height: 280px;
+}
+.filter .category{
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+
+.filter{
+    padding: 6px;
+    margin-bottom: 10px;
+
+}
+.filter .title{
+    padding: 10px 5px;
+    font-weight: bold;
+}
+
+.card-title{
+    padding: 10px 10px;
+    font-weight: 900px;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+.card-body{
+    padding: 10px 0px;
+    
+}
+
+/* Main Content */
+.main-content{
+    padding: 10px 0px;
+    border-radius: 8px;
+}
+
+.main-content .header{
+    padding: 10px 0px;
+    margin: 6px;
+    font-weight: 700;
+}
+
+.main-content .main-content-body .title{
+    padding: 10px ;
+
+}
+.main-content .main-content-body {
+    padding: 10px ;
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.ecard{
+    max-width: 250px;
+}
+
+.ecard-wrapper{
+    padding: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 1px 5px rgba(187, 187, 187, 0.678);
+    background: white;
+    margin: 10px;
+}
+.ecard-wrapper .ecard .img-wrapper{
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 1px 5px rgba(187, 187, 187, 0.678);
+    background: white;
+}
+.ecard-wrapper .ecard::before{
+    content: 'Sale';
+    border: 1px solid black;
+    background: black;
+    color: white;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 8px;
+    padding: 4px 6px;
+    font-size: 10px;
+}
+
+.ecard-wrapper .ecard .details .title{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+.ecard-wrapper .ecard .details .supplier{
+    font-size: 13px;
+    color: rgb(160, 160, 160);
+}
+.ecard-wrapper .ecard .details .price{
+    margin: 3px 0px;
+}
+.ecard-wrapper .ecard .details .price .cp{
+    font-size: 12px;
+    color: rgb(133, 133, 133);
+    text-decoration-line: line-through;
+    margin-right: 10px;
+}
+.ecard-wrapper .ecard .details .price .sp{
+    font-size: 16px;
+    color: rgb(48, 108, 238);
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.main-content .main-content-body .products{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+/* Form and Utitity */
+.range-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.range-wrapper input[type=range]{
+    width:100%;
+}
+
+.collapse{
+    border: 1px solid rgb(129, 129, 129);
+    border-radius: 0px 0px 8px 8px;
+    margin-bottom: 10px;
+}
